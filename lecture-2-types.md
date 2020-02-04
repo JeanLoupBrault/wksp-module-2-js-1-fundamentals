@@ -106,7 +106,8 @@ Numbers are exactly what you would expect them to be: numeric values.
 
 
 ```js
-// Examples...
+// Examples
+...
 
 ```
 
@@ -124,6 +125,7 @@ Numbers are exactly what you would expect them to be: numeric values.
 | `!=` | not equal to (loose) | `2 != 1` |
 | `===` | equal to (strict) | `2 === 2` |
 | `!==` | not equal to (strict) | `2 !== 1` |
+
 
 
 All of the examples in the table above evaluate to _true_. So `2 > 1` (2 is greater than 1) is `true`, and `2 < 1` (2 is less than 1) is `false`.
@@ -157,7 +159,7 @@ Of course comparison operators and logical operators are usually combined in an 
 ## Exercise
 
 ```js
-// Look at these expressions below and determine whether they evaluate to true or false
+// 1) true 2) false 3) true 4) true 5) true 6) false 7) true 8) Look at these expressions below and determine whether they evaluate to true or false
 
 1. true || false
 2. false && false
@@ -292,7 +294,7 @@ Given this data structure:
 ```js
 let data = [0, [], [], [1,2,3, [4]]]
 ```
-
+ 
 1. How would you access the value `0`?
 2. How would you access the value `3`?
 3. How would you access the value `4`?

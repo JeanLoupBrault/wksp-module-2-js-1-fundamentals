@@ -17,3 +17,13 @@
 
 
 // many other possibilities here.
+
+let status = 'even';
+for (let number = 0; number <= 15; number ++) {
+    if ( number % 2) {
+        console.log(number, ' is ', status);
+    }
+    else {
+        console.log(number, ' is ', 'odd');
+    }
+}
